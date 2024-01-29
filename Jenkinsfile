@@ -10,7 +10,7 @@ pipeline {
 
         stage('Code Checkout') {
             steps {
-                echo "Checking out code from the repository..."
+                echo "Checking out code from the repository in master..."
             }
         }
 
